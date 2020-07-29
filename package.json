@@ -13,10 +13,9 @@
   "dependencies": {
     "knex": "<0.20.0",
     "slugify": "^1.4.5",
-    "sqlite3": "latest",
     "strapi": "3.0.5",
     "strapi-admin": "3.0.5",
-    "strapi-connector-bookshelf": "3.0.5",
+    "strapi-connector-mongoose": "3.0.4",
     "strapi-plugin-content-manager": "3.0.5",
     "strapi-plugin-content-type-builder": "3.0.5",
     "strapi-plugin-email": "3.0.5",
@@ -27,7 +26,7 @@
     "strapi-utils": "3.0.5"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "A Strapi developer named Fabrice"
   },
   "strapi": {
     "uuid": "1d1a33a9-a54e-4da9-923b-0cee1bb230cd"
