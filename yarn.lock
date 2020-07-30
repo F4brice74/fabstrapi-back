@@ -9379,7 +9379,7 @@ strapi-provider-email-sendmail@3.0.5:
     sendmail "^1.6.1"
     strapi-utils "3.0.5"
 
-strapi-provider-upload-cloudinary@^3.0.5:
+strapi-provider-upload-cloudinary@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-cloudinary/-/strapi-provider-upload-cloudinary-3.1.2.tgz#c6f662ac836e488e44591fba737bd60ca8959a98"
   integrity sha512-ed9ybT8oQX9+aerTgWBnfU4RDEy+avAcTZzqbICJ8NCYMV6xPlIr03U6YDRGwGrNcG1VXiDdtTJT7ZQs6JW3cQ==
