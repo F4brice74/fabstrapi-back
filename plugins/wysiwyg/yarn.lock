@@ -14,10 +14,23 @@
   dependencies:
     prop-types "^15.6.1"
 
+ckeditor4-react@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ckeditor4-react/-/ckeditor4-react-1.2.0.tgz#4fb16014f80c4ae10980361b937fc75861bff25a"
+  integrity sha512-0g4/iWGXnbTI33XMav2RVjZW/V9h3E5x9v0/GL03HjKUL8E/Sl80BCjfF/5+PvUW9D852ky5eF36YuG3TJ3NOQ==
+  dependencies:
+    load-script "^1.0.0"
+    prop-types "^15.6.2"
+
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+
+load-script@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
+  integrity sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=
 
 loose-envify@^1.4.0:
   version "1.4.0"
@@ -31,7 +44,7 @@ object-assign@^4.1.1:
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
 
-prop-types@^15.6.1:
+prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==

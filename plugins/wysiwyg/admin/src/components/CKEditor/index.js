@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+//import CKEditor from 'ckeditor4-react';
 import CKEditor from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import styled from 'styled-components';
@@ -14,6 +15,7 @@ const Wrapper = styled.div`
 `;
 
 const configuration = {
+ 
   toolbar: [
     'heading',
     '|',
@@ -38,6 +40,7 @@ const Editor = ({ onChange, name, value }) => {
   return (
     <Wrapper>
       <CKEditor
+        //type="classic"
         editor={ClassicEditor}
         config={configuration}
         data={value}
